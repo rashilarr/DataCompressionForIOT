@@ -35,7 +35,6 @@ HuffmanVLCTable Huffman_VLC_Table[] = {
 
 void HuffmanEncode(short, HuffEncoded*);
 void fillBits(FILE *fout, HuffEncoded *out);
-
 FILE *fout;
 
 int main(void)
